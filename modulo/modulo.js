@@ -8,7 +8,7 @@ function computemodulo(){
     }
     const result=num1%num2;
     document.getElementById('result').innerText=`Result: ${num1} modulo ${num2} is ${result}`;
-    document.getElementById('error-messa ge').innerText=``;
+    document.getElementById('error-message').innerText=``;
     if(isNaN(result)){
         document.getElementById('error-message').innerText=`${num1} cannot be divided by ${num2}`;
         return;
